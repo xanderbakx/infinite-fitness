@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:700');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.blue {
+  color: #085ea3;
+}
+.white {
+  color: #fff;
+}
+.offwhite {
+  color: rgb(186, 206, 230);
+}
+.gray {
+  color: #6c757d;
+}
+
+.container-blue {
+  background: #085ea3;
+}
+
+.navbar {
+  background: #085ea3;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav {
+  float: right;
+  text-align: right;
+}
+
+.jumbotron {
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron.jumbotron-home {
+  background-image: url("../img/header.jpg");
+  background-position: 50% 80%;
+}
+.jumbotron.jumbotron-signup {
+  background-image: url("../img/will_run.jpg");
+  background-position: 50% 5%;
+}
+.jumbotron h1 {
+  -webkit-text-stroke: 1px white;
+}
+
+.btn-primary {
+  background: #085ea3;
+  border: none;
+}
+.btn-primary:hover {
+  background: #3572a3;
+  border: none;
+}
+
+.card {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.card-header {
+  background: #085ea3;
+  color: #fff;
+  text-align: center;
+}
+
+.img-mw {
+  max-width: 75%;
+}
+
+label.error {
+  color: red;
+  display: block;
+}
+
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: rgb(186, 206, 230);
+}
+
+html {
+  font-size: 1rem;
+}
